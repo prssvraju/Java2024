@@ -18,6 +18,10 @@ class BoxDemo
         System.out.println("Volume is "+vol);
         b2.widith = 5;
         vol = b.widith*b.height*b.depth;
+        //we need to Observe That we changed the b2.widht but
+        // We used b.width to calculate  volume it chande so take away is
+        // b2 will refer the b addresse where d2 dont have seperate memory
+        // As b2 is reference variable and not a object(new operate not used) 
         System.out.println("Volume is "+vol);
     }
 }
