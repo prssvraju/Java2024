@@ -16,12 +16,8 @@ class BoxDemo
 
         double vol = b.widith*b.height*b.depth;
         System.out.println("Volume is "+vol);
-        b.widith = 5;
+        b2.widith = 5;
         vol = b.widith*b.height*b.depth;
         System.out.println("Volume is "+vol);
-
-        
-
-
     }
 }
