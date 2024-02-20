@@ -41,7 +41,5 @@ import java.util.Arrays;
             System.out.print(x +" ");  
         System.out.println();  
 
-
-
     }  
 }
