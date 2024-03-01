@@ -9,6 +9,7 @@ class Animal
 class Dog extends Animal
 {
     String color="black";
+    @Override
     public void eat()
     {
         System.out.println("Eating  Boands");
