@@ -1,2 +1,1 @@
-
-public static void
+Hello
